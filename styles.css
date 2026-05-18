@@ -266,7 +266,9 @@ h3 {
 
 .project-row {
   display: grid;
-  gap: 12px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: end;
   padding: 24px 0;
   border-top: 1px solid var(--rule);
 }
@@ -276,9 +278,53 @@ h3 {
   border-top: 0;
 }
 
+.project-row-featured {
+  border-top: 0;
+  padding: 26px 24px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.015));
+  box-shadow: var(--shadow);
+}
+
 .project-copy p {
   max-width: 56ch;
   margin-top: 12px;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.project-link:hover {
+  color: var(--accent-strong);
+}
+
+.project-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--rule-strong);
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 0.92rem;
+  white-space: nowrap;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease;
+}
+
+.project-cta:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .project-meta {
@@ -375,6 +421,10 @@ h3 {
 
   .project-row {
     gap: 18px;
+  }
+
+  .project-cta {
+    width: 100%;
   }
 }
 
