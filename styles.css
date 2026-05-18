@@ -112,6 +112,11 @@ a:hover {
   box-shadow: var(--shadow);
   padding: clamp(24px, 4vw, 42px);
   overflow: hidden;
+  transition:
+    transform 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease;
+  animation: rise 700ms ease both;
 }
 
 .card::after {
@@ -122,6 +127,16 @@ a:hover {
   border-radius: inherit;
   background: linear-gradient(135deg, rgba(125, 211, 252, 0.1), transparent 32%, transparent 65%, rgba(167, 139, 250, 0.08));
   opacity: 0.7;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(125, 211, 252, 0.18);
+  box-shadow: 0 28px 96px rgba(0, 0, 0, 0.44);
+}
+
+.card:hover::after {
+  opacity: 1;
 }
 
 .hero {
@@ -182,7 +197,8 @@ h1 {
 
 .hero-meta span,
 .project-tag,
-.pill-row span {
+.pill-row span,
+.status-row {
   border: 1px solid rgba(125, 211, 252, 0.22);
   background: var(--accent-soft);
   color: #d9f7ff;
@@ -190,6 +206,22 @@ h1 {
   padding: 9px 13px;
   font-size: 0.84rem;
 }
+
+.status-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #9be7ff, #a78bfa);
+  box-shadow: 0 0 0 6px rgba(125, 211, 252, 0.08);
+}
+
 
 .hero-actions,
 .contact-links {
@@ -216,7 +248,15 @@ h1 {
 }
 
 .button:hover {
-  transform: translateY(-1px);
+  transform: translateY(-1px) scale(1.01);
+}
+
+.button-primary:hover {
+  box-shadow: 0 20px 44px rgba(125, 211, 252, 0.22);
+}
+
+.button-secondary:hover {
+  border-color: rgba(125, 211, 252, 0.22);
 }
 
 .button-primary {
@@ -236,11 +276,31 @@ h1 {
   gap: 14px;
 }
 
+.profile-card,
+.project,
+.metric,
+.capability-grid article {
+  transition:
+    transform 220ms ease,
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    background 220ms ease;
+}
+
 .profile-card {
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.02));
   padding: 22px;
+}
+
+.profile-card:hover,
+.project:hover,
+.metric:hover,
+.capability-grid article:hover {
+  transform: translateY(-2px);
+  border-color: rgba(125, 211, 252, 0.14);
+  box-shadow: 0 20px 54px rgba(0, 0, 0, 0.28);
 }
 
 .profile-card-main h2 {
@@ -322,6 +382,7 @@ h1 {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.025));
   border: 1px solid rgba(255, 255, 255, 0.06);
   min-height: 170px;
+  overflow: hidden;
 }
 
 .metric::before {
@@ -380,10 +441,30 @@ h1 {
 }
 
 .project {
+  position: relative;
   padding: 24px;
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.02));
+}
+
+.project::before,
+.capability-grid article::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), transparent 35%);
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.project:hover::before,
+.capability-grid article:hover::before,
+.profile-card:hover::before,
+.metric:hover::before {
+  opacity: 1;
 }
 
 .project-featured {
@@ -424,6 +505,8 @@ h3 {
 }
 
 .capability-grid article {
+  position: relative;
+  overflow: hidden;
   padding: 20px;
   border-radius: 22px;
   background: var(--surface-soft);
@@ -498,6 +581,17 @@ h3 {
   }
 }
 
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 960px) {
   .hero,
   .split-section,
@@ -541,5 +635,24 @@ h3 {
 
   h1 {
     font-size: clamp(2.45rem, 16vw, 3.5rem);
+  }
+
+  .status-row {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
