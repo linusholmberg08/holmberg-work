@@ -1,17 +1,20 @@
 # holmberg.work
 
-A minimal portfolio / CV site for Linus Holmberg.
+A premium minimal portfolio / CV site for Linus Holmberg.
 
-## What’s here
+## Positioning
 
-- A simple single-page site
-- Projects: `Dependle.io` and `tinyarkprints`
-- A clean dark, tech-inspired visual style
-- A `CNAME` ready for `holmberg.work`
+- AI-native developer
+- 10 years in marketing and product
+- Clean, state-of-the-art presentation
 
-## Next step ideas
+## Featured projects
 
-- Add a real bio and contact links
-- Replace placeholder project blurbs with real copy
-- Add project pages when the site grows
-- Connect the repo to hosting and point the domain at it
+- `Dependle.io` — benchmark product surface and reference point for the site’s tone
+- `tinyarkprints` — personal Etsy shop for posters and creative commerce
+
+## Notes
+
+- Static single-page site
+- Ready for a `holmberg.work` domain connection
+- Designed to feel more like a modern product homepage than a traditional CV

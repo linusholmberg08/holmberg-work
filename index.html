@@ -3,114 +3,224 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Linus Holmberg — Portfolio & CV</title>
+    <title>Linus Holmberg — AI-native developer, marketing, product</title>
     <meta
       name="description"
-      content="Minimal portfolio and CV for Linus Holmberg — projects, experience, and contact."
+      content="Linus Holmberg is an AI-native developer with 10 years in marketing and product. Minimal portfolio, selected work, and contact."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="noise" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-left" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-right" aria-hidden="true"></div>
 
     <header class="shell header">
       <a class="wordmark" href="#top">holmberg.work</a>
       <nav class="nav" aria-label="Primary">
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
+        <a href="#work">Work</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top" class="shell layout">
       <section class="hero card">
-        <div class="eyebrow">Portfolio / CV</div>
-        <h1>Linus Holmberg</h1>
-        <p class="lede">
-          I build calm, practical digital products and keep the interface minimal.
-          This site is the home base for my work, projects, and contact details.
-        </p>
+        <div class="hero-copy">
+          <div class="eyebrow">AI-native developer · marketing · product</div>
+          <h1>Linus Holmberg</h1>
+          <p class="lede">
+            I build modern web experiences with an AI-native workflow and 10 years of
+            perspective across marketing and product. The goal is always the same: make
+            something sharp, useful, and commercially clear.
+          </p>
 
-        <div class="hero-meta">
-          <span>Tech + minimal</span>
-          <span>Independent builder</span>
-          <span>holmberg.work</span>
+          <div class="hero-meta" aria-label="Highlights">
+            <span>AI-first execution</span>
+            <span>10 years in marketing + product</span>
+            <span>Minimal systems thinker</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">See selected work</a>
+            <a class="button button-secondary" href="#contact">Get in touch</a>
+          </div>
         </div>
+
+        <aside class="hero-aside" aria-label="Profile summary">
+          <div class="profile-card profile-card-main">
+            <div class="profile-kicker">Current focus</div>
+            <h2>State-of-the-art web design with clean product framing.</h2>
+            <p>
+              Benchmarking against the best surfaces means tight hierarchy, strong motion
+              discipline, and copy that earns its place.
+            </p>
+          </div>
+
+          <div class="profile-grid">
+            <article class="profile-card mini">
+              <span class="mini-label">Work mode</span>
+              <strong>AI-native</strong>
+              <p>Fast iteration, better defaults, cleaner shipping.</p>
+            </article>
+            <article class="profile-card mini">
+              <span class="mini-label">Lens</span>
+              <strong>Product + growth</strong>
+              <p>Designing for trust, conversion, and clarity.</p>
+            </article>
+          </div>
+        </aside>
       </section>
 
-      <section id="about" class="card split">
-        <div>
+      <section id="about" class="card split-section">
+        <div class="section-heading-block">
           <div class="section-label">About</div>
-          <h2>Small, clear, and useful.</h2>
+          <h2>Built for ambitious but minimal digital work.</h2>
         </div>
-        <div class="body-copy">
+        <div class="body-copy stack">
           <p>
-            I like making things that feel lightweight, readable, and well-structured.
-            This page starts as a simple about-me site, then can grow into a full portfolio
-            as I add more projects.
+            I’m an AI-native developer with a background that combines marketing judgment
+            and product thinking. That mix matters: it helps me build sites and products that
+            aren’t just technically solid, but also positioned well and easy to understand.
           </p>
           <p>
-            The focus here is straightforward: show what I do, what I’m building, and how to
-            get in touch — without unnecessary clutter.
+            I like systems that feel calm on the surface and highly capable underneath — the
+            kind of interface that makes the work look effortless without hiding the craft.
           </p>
+          <div class="pill-row" aria-label="Core strengths">
+            <span>Positioning</span>
+            <span>Interface design</span>
+            <span>Product narrative</span>
+            <span>AI workflows</span>
+          </div>
         </div>
       </section>
 
-      <section id="projects" class="card">
+      <section class="card metrics" aria-label="Key facts">
+        <article class="metric metric-primary">
+          <span class="metric-label">Profile</span>
+          <strong>AI-native developer</strong>
+          <p>Shipping with speed and clarity, grounded in product and marketing judgment.</p>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Background</span>
+          <strong>10 years</strong>
+          <p>Experience across marketing and product shapes how I position and build.</p>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Benchmark</span>
+          <strong>Dependle.io</strong>
+          <p>The reference point for this site’s tone: product-led, clean, and deliberate.</p>
+        </article>
+      </section>
+
+      <section id="work" class="card work-section">
         <div class="section-head">
           <div>
-            <div class="section-label">Projects</div>
-            <h2>Selected work</h2>
+            <div class="section-label">Selected work</div>
+            <h2>Projects that set the tone.</h2>
           </div>
-          <p class="section-note">A compact list to begin with.</p>
+          <p class="section-note">Dependle.io is the benchmark: polished, product-led, and deliberately clear.</p>
         </div>
 
         <div class="project-grid">
-          <article class="project">
+          <article class="project project-featured">
             <div class="project-top">
-              <h3>Dependle.io</h3>
+              <div>
+                <div class="project-label">Benchmark project</div>
+                <h3>Dependle.io</h3>
+              </div>
               <span class="project-tag">Product</span>
             </div>
             <p>
-              A project of mine focused on building a useful, reliable product experience.
-              More details can be added here as the site grows.
+              A benchmark for how I think about modern web products: clean structure,
+              conversion-aware design, and a product story that makes the value obvious fast.
             </p>
+            <ul class="project-list">
+              <li>Product-led presentation</li>
+              <li>High-signal messaging</li>
+              <li>Strong visual discipline</li>
+            </ul>
           </article>
 
-          <article class="project">
+          <article class="project project-featured">
             <div class="project-top">
-              <h3>tinyarkprints</h3>
+              <div>
+                <div class="project-label">Creative commerce</div>
+                <h3>tinyarkprints</h3>
+              </div>
               <span class="project-tag">Shop</span>
             </div>
             <p>
-              My personal Etsy shop where I create and publish posters for sale.
-              This will later link out to the shop and featured collections.
+              My personal Etsy shop where I create and publish posters for sale. It reflects
+              the same approach: simple structure, thoughtful visuals, and an emphasis on
+              making the product feel desirable.
             </p>
+            <ul class="project-list">
+              <li>Poster design and publishing</li>
+              <li>Creative brand expression</li>
+              <li>Shop-facing product strategy</li>
+            </ul>
           </article>
         </div>
       </section>
 
-      <section class="card split" id="contact">
-        <div>
-          <div class="section-label">Contact</div>
-          <h2>Let’s make something clean.</h2>
+      <section class="card capabilities">
+        <div class="section-head">
+          <div>
+            <div class="section-label">Capabilities</div>
+            <h2>What I bring to the table.</h2>
+          </div>
+          <p class="section-note">A compact, high-trust summary of how I work.</p>
         </div>
-        <div class="body-copy contact-list">
-          <a href="mailto:hello@holmberg.work">hello@holmberg.work</a>
-          <a href="#top">Back to top</a>
+
+        <div class="capability-grid">
+          <article>
+            <h3>Design sense</h3>
+            <p>Minimal UI, clear hierarchy, and interfaces that feel premium without noise.</p>
+          </article>
+          <article>
+            <h3>Product thinking</h3>
+            <p>Strong framing, better priorities, and a bias for building the thing people need.</p>
+          </article>
+          <article>
+            <h3>Marketing instinct</h3>
+            <p>Copy and structure that help the page do its job, not just look good.</p>
+          </article>
+          <article>
+            <h3>AI-native execution</h3>
+            <p>Using AI to move faster, think wider, and keep output sharp from draft to ship.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card split-section" id="contact">
+        <div class="section-heading-block">
+          <div class="section-label">Contact</div>
+          <h2>Let’s build something that feels current.</h2>
+        </div>
+        <div class="body-copy stack contact-stack">
+          <p>
+            If you want a product-minded, design-aware, AI-native builder — this is the place
+            to start.
+          </p>
+          <div class="contact-links">
+            <a class="button button-primary" href="mailto:hello@holmberg.work">hello@holmberg.work</a>
+            <a class="button button-secondary" href="#top">Back to top</a>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="shell footer">
       <p>© <span id="year"></span> Linus Holmberg</p>
-      <p>Built for holmberg.work</p>
+      <p>holmberg.work</p>
     </footer>
 
     <script>
