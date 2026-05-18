@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linus Holmberg — Portfolio & CV</title>
+    <meta
+      name="description"
+      content="Minimal portfolio and CV for Linus Holmberg — projects, experience, and contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="shell header">
+      <a class="wordmark" href="#top">holmberg.work</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top" class="shell layout">
+      <section class="hero card">
+        <div class="eyebrow">Portfolio / CV</div>
+        <h1>Linus Holmberg</h1>
+        <p class="lede">
+          I build calm, practical digital products and keep the interface minimal.
+          This site is the home base for my work, projects, and contact details.
+        </p>
+
+        <div class="hero-meta">
+          <span>Tech + minimal</span>
+          <span>Independent builder</span>
+          <span>holmberg.work</span>
+        </div>
+      </section>
+
+      <section id="about" class="card split">
+        <div>
+          <div class="section-label">About</div>
+          <h2>Small, clear, and useful.</h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            I like making things that feel lightweight, readable, and well-structured.
+            This page starts as a simple about-me site, then can grow into a full portfolio
+            as I add more projects.
+          </p>
+          <p>
+            The focus here is straightforward: show what I do, what I’m building, and how to
+            get in touch — without unnecessary clutter.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="card">
+        <div class="section-head">
+          <div>
+            <div class="section-label">Projects</div>
+            <h2>Selected work</h2>
+          </div>
+          <p class="section-note">A compact list to begin with.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project">
+            <div class="project-top">
+              <h3>Dependle.io</h3>
+              <span class="project-tag">Product</span>
+            </div>
+            <p>
+              A project of mine focused on building a useful, reliable product experience.
+              More details can be added here as the site grows.
+            </p>
+          </article>
+
+          <article class="project">
+            <div class="project-top">
+              <h3>tinyarkprints</h3>
+              <span class="project-tag">Shop</span>
+            </div>
+            <p>
+              My personal Etsy shop where I create and publish posters for sale.
+              This will later link out to the shop and featured collections.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="card split" id="contact">
+        <div>
+          <div class="section-label">Contact</div>
+          <h2>Let’s make something clean.</h2>
+        </div>
+        <div class="body-copy contact-list">
+          <a href="mailto:hello@holmberg.work">hello@holmberg.work</a>
+          <a href="#top">Back to top</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="shell footer">
+      <p>© <span id="year"></span> Linus Holmberg</p>
+      <p>Built for holmberg.work</p>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
