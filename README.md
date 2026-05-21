@@ -1,4 +1,4 @@
-# holmberg.work — The Quiet House
+# holmberg.work — That Declutter Life
 
 A small journal on decluttering and the patient keeping of a home. A static
 site, written by hand, hosted on GitHub Pages.
