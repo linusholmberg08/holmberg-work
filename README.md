@@ -8,7 +8,8 @@ site, written by hand, hosted on GitHub Pages.
 ```
 /                                    The masthead, the opening essay,
                                      the eight-card collection, the
-                                     statement, the letters card.
+                                     short-form bridge, the statement,
+                                     and the letters card.
 
 /organize/                           The Field Guides landing — long
                                      pieces, in one quiet place.
@@ -18,6 +19,11 @@ site, written by hand, hosted on GitHub Pages.
 /organize/articles/                  "A Patient House" — the flagship
   complete-home-organization-        room-by-room field guide.
   guide.html
+
+/planning/                           Internal project planning docs for
+                                     That Declutter Life publishing packs
+                                     and performance tracking. These are
+                                     not public navigation pages.
 ```
 
 ## Design
@@ -40,6 +46,27 @@ seamless across pages.
 Plainly written, in long careful sentences. The reader is assumed to be
 busy and intelligent. No jargon, no influencer fluff, no affiliate
 clutter.
+
+The short-form work uses the same voice in smaller pieces: ordinary
+objects, real footage, calm music, exact captions, and a lightly funny
+reflective line rather than a productivity lecture.
+
+## Social / short-form workflow
+
+The homepage includes a small bridge to the That Declutter Life short-form
+project and links to TikTok at `https://www.tiktok.com/@thatdeclutterlife`.
+YouTube Shorts is treated as a manual cross-post/archive until a public URL
+is confirmed.
+
+Publishing rule: Hermes prepares scripts, captions, rendered files, and
+copy. Linus posts manually. No social-platform automation.
+
+Planning files:
+
+- `planning/that-declutter-life-performance-tracker.md` — manual 24h/72h
+  stats ledger for TikTok and YouTube Shorts.
+- `planning/video-004-publishing-pack.md` — copy, hashtags, footage
+  checklist, and posting checklist for "The Drawer That Knows Too Much".
 
 ## Deployment
 
