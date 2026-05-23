@@ -20,6 +20,10 @@ site, written by hand, hosted on GitHub Pages.
   complete-home-organization-        room-by-room field guide.
   guide.html
 
+/organize/articles/                  "A Short List, Taped to the
+  decluttering-checklist-room-        Refrigerator" — a room-by-room
+  by-room.html                       decluttering checklist for a working week.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
