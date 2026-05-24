@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 150" role="img" aria-labelledby="title">
+<title>Hägersten Trädgård</title>
+<defs>
+<style>
+.word{font-family:'Playfair Display', Georgia, serif;font-weight:700;fill:#123b2a;letter-spacing:-1px}
+</style>
+</defs>
+<g transform="translate(8 18)">
+  <path d="M49 51C28 46 17 30 23 16c15 0 25 12 27 31" fill="#123b2a"/>
+  <path d="M53 51C74 46 85 30 79 16c-15 0-25 12-27 31" fill="#123b2a"/>
+  <path d="M47 56C29 59 20 73 25 86c14-2 23-13 25-27" fill="#8ea783"/>
+  <path d="M55 56c18 3 27 17 22 30-14-2-23-13-25-27" fill="#8ea783"/>
+  <path d="M51 42v39" stroke="#123b2a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="51" cy="35" r="5" fill="#123b2a"/>
+  <path d="M48 31c-8-10-15-10-19-4M54 31c8-10 15-10 19-4" fill="none" stroke="#123b2a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M38 32c5 3 8 7 10 13M64 32c-5 3-8 7-10 13M37 69c5-3 8-7 10-13M65 69c-5-3-8-7-10-13" stroke="#fffaf0" stroke-width="2" opacity=".85" fill="none" stroke-linecap="round"/>
+</g>
+<g transform="translate(128 22)">
+  <text class="word" x="0" y="38" font-size="39">Hägersten</text>
+  <text class="word" x="0" y="82" font-size="39">Trädgård</text>
+  <line x1="0" y1="106" x2="70" y2="106" stroke="#8ea783" stroke-width="2"/>
+  <g transform="translate(82 96)">
+    <path d="M14 19V8" stroke="#8ea783" stroke-width="2.2"/>
+    <path d="M14 10C8 2 4 3 2 8c5 2 9 1 12 2M14 10c6-8 10-7 12-2-5 2-9 0-12 2" fill="#8ea783"/>
+  </g>
+  <line x1="124" y1="106" x2="194" y2="106" stroke="#8ea783" stroke-width="2"/>
+</g>
+</svg>

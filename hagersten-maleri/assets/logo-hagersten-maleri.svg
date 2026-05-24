@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" role="img" aria-labelledby="title">
+<title>Hägersten Måleri Konsult</title>
+<defs>
+<style>
+.word{font-family:'Libre Baskerville', Georgia, serif;font-weight:700;fill:#24201d;letter-spacing:-1.7px}
+.sub{font-family:Inter, Arial, sans-serif;font-weight:700;letter-spacing:10px;fill:#3b3531}
+</style>
+</defs>
+<text class="word" x="12" y="55" font-size="48">Hägersten</text>
+<text class="word" x="12" y="114" font-size="48">Måleri</text>
+<path d="M210 84 L276 76 L286 107 L267 120 L200 127 L188 100 Z" fill="#e96d26"/>
+<path d="M205 85 L274 78" stroke="#f28a3d" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+<text class="sub" x="14" y="154" font-size="17">KONSULT</text>
+</svg>
