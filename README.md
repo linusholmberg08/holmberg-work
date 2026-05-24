@@ -24,6 +24,10 @@ site, written by hand, hosted on GitHub Pages.
   decluttering-checklist-room-        Refrigerator" — a room-by-room
   by-room.html                       decluttering checklist for a working week.
 
+/organize/articles/                  "A Pantry That Survives a Tuesday" —
+  pantry-organization-that-          pantry organization for ordinary weeks,
+  saves-money.html                   fewer duplicates, and the half-full shelf.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
