@@ -27,9 +27,8 @@ Outreach/design note:
 
 Status:
 
-- No preview built yet.
-- No outreach sent.
-- Next step: build a tasteful noindex preview at `/ornsbergs-bageri/`, preserving the existing logo, then draft a short Swedish email for approval.
+- Preview built at `https://holmberg.work/ornsbergs-bageri/`.
+- Outreach sent on 2026-05-25 with Gmail Sent ID `19e5ef908977d829`.
 
 ## 2) AT Rörservice AB
 
@@ -71,7 +70,7 @@ Suggested preview angle:
 Status:
 
 - No preview built yet.
-- No outreach sent.
+- Outreach sent on 2026-05-25. Gmail Sent IDs: Örnsbergs `19e5ef908977d829`, AT Rörservice `19e5ef90e9357d12`.
 - Good replacement contractor candidate after removing Bara Yoga/Jordmånen and excluding already-sent Hägersten Måleri.
 
 ## Removed / excluded candidates

@@ -19,7 +19,7 @@ Public details used:
 - Address: `Junkergatan 24, 126 53 Hägersten`
 - Hours: Mon-Fri 07:00-17:30, Sat-Sun 09:00-16:30
 
-Status: preview built, no outreach sent.
+Status: preview built and outreach sent on 2026-05-25. Gmail Sent IDs: Örnsbergs `19e5ef908977d829`, AT Rörservice `19e5ef90e9357d12`.
 
 ## AT Rörservice AB
 
@@ -40,4 +40,4 @@ Public details used:
 - Phone: `0704000270`
 - Address: `Juvelerarvägen 23, 126 41 Hägersten`
 
-Status: preview built, no outreach sent.
+Status: preview built and outreach sent on 2026-05-25. Gmail Sent IDs: Örnsbergs `19e5ef908977d829`, AT Rörservice `19e5ef90e9357d12`.
