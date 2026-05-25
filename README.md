@@ -28,6 +28,10 @@ site, written by hand, hosted on GitHub Pages.
   pantry-organization-that-          pantry organization for ordinary weeks,
   saves-money.html                   fewer duplicates, and the half-full shelf.
 
+/organize/articles/                  "On Owning Fewer Shirts, and Loving
+  owning-fewer-shirts-loving-        Them More" — a closet guide for real
+  them-more.html                     weeks, useful favorites, and almost-clothes.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
