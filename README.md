@@ -32,6 +32,10 @@ site, written by hand, hosted on GitHub Pages.
   owning-fewer-shirts-loving-        Them More" — a closet guide for real
   them-more.html                     weeks, useful favorites, and almost-clothes.
 
+/organize/articles/                  "The Kondo Question, Asked Honestly" —
+  the-kondo-question-asked-          a careful look at what still helps in
+  honestly.html                      the famous decluttering question.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
