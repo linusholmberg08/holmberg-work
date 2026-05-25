@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
+  <title id="title">AT Rörservice AB — redesign concept</title>
+  <desc id="desc">Modern wordmark with monogram and pipe/water symbol.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0F6B84"/>
+      <stop offset="1" stop-color="#113B59"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="172" height="172" rx="42" fill="#F2F8FA" stroke="#C7DCE3" stroke-width="8"/>
+  <path d="M48 111 C48 78 66 52 91 44 C116 52 134 78 134 111 C134 132 116 148 91 148 C66 148 48 132 48 111Z" fill="url(#g)"/>
+  <path d="M91 55 L91 142" stroke="#F2F8FA" stroke-width="10" stroke-linecap="round"/>
+  <path d="M62 112 H120" stroke="#F2F8FA" stroke-width="10" stroke-linecap="round"/>
+  <path d="M62 87 H120" stroke="#F2F8FA" stroke-width="10" stroke-linecap="round" opacity=".82"/>
+  <text x="215" y="83" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.5" fill="#102C3A">AT RÖRSERVICE</text>
+  <text x="218" y="123" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="4.5" fill="#0F6B84">VVS · INSTALLATION · SERVICE</text>
+  <path d="M218 145 H610" stroke="#F0A43A" stroke-width="8" stroke-linecap="round"/>
+</svg>
