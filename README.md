@@ -36,6 +36,10 @@ site, written by hand, hosted on GitHub Pages.
   the-kondo-question-asked-          a careful look at what still helps in
   honestly.html                      the famous decluttering question.
 
+/organize/articles/                  "Where the Day Begins, and Where It
+  entryway-organization-soft-        Lands" — an entryway guide for shoes,
+  landing.html                       keys, bags, mail, and soft landings.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
