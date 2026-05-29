@@ -40,6 +40,10 @@ site, written by hand, hosted on GitHub Pages.
   entryway-organization-soft-        Lands" — an entryway guide for shoes,
   landing.html                       keys, bags, mail, and soft landings.
 
+/organize/articles/                  "Three Drawers, and What Belongs in
+  desk-decluttering-three-           Them" — a desk guide for papers,
+  drawers.html                       cables, daily tools, and active work.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
