@@ -44,6 +44,10 @@ site, written by hand, hosted on GitHub Pages.
   desk-decluttering-three-           Them" — a desk guide for papers,
   drawers.html                       cables, daily tools, and active work.
 
+/organize/articles/                  "On Letting Go of the Tool You Do
+  garage-tool-decluttering.html      Not Use" — a garage guide for tools,
+                                     hardware, paint, and seasonal supplies.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
