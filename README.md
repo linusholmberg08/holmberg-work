@@ -48,6 +48,11 @@ site, written by hand, hosted on GitHub Pages.
   garage-tool-decluttering.html      Not Use" — a garage guide for tools,
                                      hardware, paint, and seasonal supplies.
 
+/organize/articles/                  "Ten Minutes, Every Evening, Before
+  evening-reset-decluttering-        the Lamps" — an evening reset guide for
+  routine.html                       soft places, wandering objects, and
+                                     tomorrow's first room.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
