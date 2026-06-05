@@ -7,7 +7,7 @@ site, written by hand, hosted on GitHub Pages.
 
 ```
 /                                    The masthead, the opening essay,
-                                     the eight-card collection, the
+                                     the ten-card collection, the
                                      short-form bridge, the statement,
                                      and the letters card.
 
@@ -52,6 +52,10 @@ site, written by hand, hosted on GitHub Pages.
   evening-reset-decluttering-        the Lamps" — an evening reset guide for
   routine.html                       soft places, wandering objects, and
                                      tomorrow's first room.
+
+/organize/articles/                  "The Basket by the Stairs" — a holding
+  basket-by-the-stairs-              place guide for temporary objects,
+  decluttering.html                  return routes, and avoiding hidden piles.
 
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
