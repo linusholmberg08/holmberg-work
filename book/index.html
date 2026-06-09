@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decluttering Me, Myself & I — E-book</title>
+    <meta
+      name="description"
+      content="Decluttering Me, Myself & I is an upcoming e-book about clearing your home, mind, and life through minimalism."
+    />
+    <meta property="og:title" content="Decluttering Me, Myself & I" />
+    <meta property="og:description" content="How to Clear Your Home, Mind, and Life Through Minimalism." />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="https://holmberg.work/book/" />
+    <meta property="og:image" content="https://holmberg.work/assets/book/cover.png" />
+    <link rel="canonical" href="https://holmberg.work/book/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="/">That Declutter Life</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/book/">Book</a>
+        <a href="/organize/articles/">Essays</a>
+        <a href="https://www.tiktok.com/@thatdeclutterlife" rel="noopener" target="_blank">TikTok</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="book-hero section-shell">
+        <div>
+          <p class="eyebrow">E-book coming soon</p>
+          <h1>Decluttering Me, Myself &amp; I</h1>
+          <p class="lede">How to Clear Your Home, Mind, and Life Through Minimalism.</p>
+          <p class="lede">
+            A practical, psychological guide for people who are tired of reorganizing the same stuff and want to understand why it keeps coming back.
+          </p>
+          <div class="book-meta" aria-label="Book details">
+            <span>Minimalism</span>
+            <span>Home reset</span>
+            <span>Psychology-first</span>
+            <span>Digital e-book</span>
+          </div>
+          <div class="purchase-box" id="purchase">
+            <a class="button primary disabled" id="buy-link" href="#" aria-disabled="true">Purchase link coming soon</a>
+            <p>
+              The page is ready for a Stripe Payment Link. Add the e-book product in Stripe, then paste the payment link into <code>/book/config.js</code>.
+            </p>
+          </div>
+        </div>
+        <div class="book-cover-card">
+          <img src="/assets/book/cover.png" alt="Cover of Decluttering Me, Myself & I" />
+        </div>
+      </section>
+
+      <section class="section-shell bullets" aria-label="What the book covers">
+        <article class="bullet">
+          <strong>Why we accumulate</strong>
+          <p>Not just what to remove — the beliefs, fears, optimism, guilt, and old identities that keep objects in place.</p>
+        </article>
+        <article class="bullet">
+          <strong>What clutter is saying</strong>
+          <p>How your rooms become a physical record of postponed decisions and unfinished versions of yourself.</p>
+        </article>
+        <article class="bullet">
+          <strong>How to need less</strong>
+          <p>A calmer route from stuff to identity, awareness, simplification, and freedom.</p>
+        </article>
+      </section>
+
+      <section class="section-shell preview-strip">
+        <img src="/assets/book/mockup-flat.png" alt="Decluttering Me, Myself & I hardcover lying on a minimalist table" />
+        <div>
+          <p class="eyebrow">Core promise</p>
+          <p class="quote">Minimalism isn’t about having less. It’s about needing less.</p>
+          <ul class="note-list">
+            <li>Written for real homes, not sterile showrooms.</li>
+            <li>Clear enough to start today, reflective enough to change the pattern.</li>
+            <li>Built around home, mind, identity, attention, and everyday decisions.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-shell split">
+        <div>
+          <p class="eyebrow">For readers who</p>
+          <h2>Want the calm without turning life into a productivity system.</h2>
+        </div>
+        <div class="text-stack">
+          <p>You do not need a perfect capsule wardrobe, a color-coded pantry, or a second personality called “organized me.”</p>
+          <p>You need a simpler relationship with what you own, what you keep, what you avoid, and what Future You keeps inheriting.</p>
+          <div class="actions">
+            <a class="button primary disabled" href="#purchase" aria-disabled="true">Buy when available</a>
+            <a class="button secondary" href="/">Back to home</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© <span id="year"></span> That Declutter Life</span>
+      <a href="mailto:hello@holmberg.work">hello@holmberg.work</a>
+    </footer>
+
+    <script src="/book/config.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      const link = window.TDL_BOOK_PURCHASE_URL;
+      const buttons = document.querySelectorAll('.button.disabled');
+      if (link && /^https?:\/\//.test(link)) {
+        buttons.forEach((button) => {
+          button.href = link;
+          button.textContent = button.id === 'buy-link' ? 'Buy the e-book' : 'Buy now';
+          button.classList.remove('disabled');
+          button.removeAttribute('aria-disabled');
+        });
+      }
+    </script>
+  </body>
+</html>
