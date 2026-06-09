@@ -57,6 +57,10 @@ site, written by hand, hosted on GitHub Pages.
   basket-by-the-stairs-              place guide for temporary objects,
   decluttering.html                  return routes, and avoiding hidden piles.
 
+/organize/articles/                  "The Shelf That Catches Everything" —
+  shelf-that-catches-                a catch-all surface guide for daily
+  everything.html                    objects, small decisions, and return routes.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
