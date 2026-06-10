@@ -61,6 +61,10 @@ site, written by hand, hosted on GitHub Pages.
   shelf-that-catches-                a catch-all surface guide for daily
   everything.html                    objects, small decisions, and return routes.
 
+/organize/articles/                  "The Bathroom Cabinet, Made Honest" —
+  bathroom-cabinet-                  a bathroom cabinet guide for toiletries,
+  decluttering.html                  medicine, towels, duplicates, and backstock.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
