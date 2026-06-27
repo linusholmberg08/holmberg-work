@@ -65,6 +65,10 @@ site, written by hand, hosted on GitHub Pages.
   bathroom-cabinet-                  a bathroom cabinet guide for toiletries,
   decluttering.html                  medicine, towels, duplicates, and backstock.
 
+/organize/articles/                  "The Kitchen Counter After Dinner" —
+  kitchen-counter-after-             an evening kitchen reset guide for food,
+  dinner.html                        dishes, mail, appliances, and morning space.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
