@@ -69,6 +69,10 @@ site, written by hand, hosted on GitHub Pages.
   kitchen-counter-after-             an evening kitchen reset guide for food,
   dinner.html                        dishes, mail, appliances, and morning space.
 
+/organize/articles/                  "The Nightstand Before Sleep" — a
+  nightstand-decluttering-           bedside guide for books, chargers,
+  before-sleep.html                  medicine, water glasses, and quiet edges.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
