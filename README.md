@@ -73,6 +73,10 @@ site, written by hand, hosted on GitHub Pages.
   nightstand-decluttering-           bedside guide for books, chargers,
   before-sleep.html                  medicine, water glasses, and quiet edges.
 
+/organize/articles/                  "The Laundry Chair, Finally Given a
+  laundry-chair-                     Job" — a bedroom guide for worn-once
+  decluttering.html                  clothes, clean piles, and full drawers.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
