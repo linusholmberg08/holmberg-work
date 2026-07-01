@@ -77,6 +77,10 @@ site, written by hand, hosted on GitHub Pages.
   laundry-chair-                     Job" — a bedroom guide for worn-once
   decluttering.html                  clothes, clean piles, and full drawers.
 
+/organize/articles/                  "The Donation Bag by the Door" — a
+  donation-bag-by-the-door.html      final-mile guide for donations, textile
+                                     recycling, charity drop-offs, and exits.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
