@@ -81,6 +81,10 @@ site, written by hand, hosted on GitHub Pages.
   donation-bag-by-the-door.html      final-mile guide for donations, textile
                                      recycling, charity drop-offs, and exits.
 
+/organize/articles/                  "The Junk Drawer, Given a Border" — a
+  junk-drawer-decluttering.html      small-drawer guide for pens, batteries,
+                                     keys, receipts, tools, and boundaries.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
