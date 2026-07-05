@@ -85,6 +85,11 @@ site, written by hand, hosted on GitHub Pages.
   junk-drawer-decluttering.html      small-drawer guide for pens, batteries,
                                      keys, receipts, tools, and boundaries.
 
+/organize/articles/                  "The Box You Keep Meaning to Sort" — a
+  box-you-keep-meaning-to-           tucked-away-box guide for keepsakes,
+  sort.html                          cables, old papers, spare parts, and
+                                     unfinished decisions.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
