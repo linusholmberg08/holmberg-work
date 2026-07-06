@@ -90,6 +90,10 @@ site, written by hand, hosted on GitHub Pages.
   sort.html                          cables, old papers, spare parts, and
                                      unfinished decisions.
 
+/organize/articles/                  "The Mail Pile That Keeps Coming Back" —
+  mail-pile-decluttering.html        a paper-route guide for envelopes,
+                                     notices, bills, receipts, and exits.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
