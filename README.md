@@ -94,6 +94,11 @@ site, written by hand, hosted on GitHub Pages.
   mail-pile-decluttering.html        a paper-route guide for envelopes,
                                      notices, bills, receipts, and exits.
 
+/organize/articles/                  "Before You Buy Another Storage Bin" —
+  before-you-buy-another-            a buying-pause guide for containers,
+  storage-bin.html                   sorting first, seasonal storage, and
+                                     unfinished decisions.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
