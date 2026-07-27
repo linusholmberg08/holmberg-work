@@ -99,6 +99,11 @@ site, written by hand, hosted on GitHub Pages.
   storage-bin.html                   sorting first, seasonal storage, and
                                      unfinished decisions.
 
+/organize/articles/                  "The Linen Closet That Forgot Its Job" —
+  linen-closet-decluttering.html     a linen-closet guide for sheets, towels,
+                                     guest bedding, household backstock, and
+                                     working shelf margins.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
