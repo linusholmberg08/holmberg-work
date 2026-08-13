@@ -104,6 +104,11 @@ site, written by hand, hosted on GitHub Pages.
                                      guest bedding, household backstock, and
                                      working shelf margins.
 
+/organize/articles/                  "The Coat Closet Before the Weather Turns" —
+  coat-closet-decluttering.html      a coat-closet guide for everyday coats,
+                                     winter accessories, bags, guest hangers,
+                                     and exits with less friction.
+
 /planning/                           Internal project planning docs for
                                      That Declutter Life publishing packs
                                      and performance tracking. These are
